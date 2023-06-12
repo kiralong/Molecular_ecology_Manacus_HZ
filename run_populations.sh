@@ -33,11 +33,11 @@ cmd=(
     --hwe
     --whitelist $whitelist_path
     --structure
-#   --genepop
-#   --plink
-# 	--vcf
-#   --ordered-export
-#	  --vcf-all
+#    --genepop
+#    --plink
+#    --vcf
+#    --ordered-export
+#    --vcf-all
 )
 
 "${cmd[@]}"
