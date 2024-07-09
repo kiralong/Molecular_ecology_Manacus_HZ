@@ -34,8 +34,8 @@ An example of a popmap used in *Stacks*.
 A Bash script for running the *Stacks* module `populations` on a computing cluster using SLURM.
 
 ## run_vcftools_het.sh
-A Bash script for running `vcftools` to calculate heterozygosity on a computeing cluster using SLURM.
+A Bash script for running `vcftools` to calculate heterozygosity on a computing cluster using SLURM.
 
 ## Data availability
 Raw RAD-seq reads can be found on NCBI under BioProject [PRJNA893627](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA893627).
-All other data used in this publication are on [dryad](https://datadryad.org/stash/share/jNpHmKpi6-RflBUMioqwPdsTrMKaxYXDWyRBCnaCiMY).
+All other data used in this publication are on dryad (link TBD).
