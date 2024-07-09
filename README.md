@@ -11,25 +11,30 @@ Primary Contacts: benvernasco@gmail.com and kiralong778@gmail.com
 # Description of each script
 
 ## calculate_idnv-obs_het.py
-A custom python script that calculates both the SNP only and all sites heterozygosity ratio for each indiviual.
+A custom python script that calculates both the SNP only and all sites heterozygosity ratio for each individual. Requires an input vcf with all sites, such as a `populations.all.vcf` from the `populations` module of *Stacks* [(Rochette et al. 2019)](https://catchenlab.life.illinois.edu/stacks/) using the `--vcf-all` flag. This script calculates the observed individual heterozygosity, i.e. the proportion of heterozygous sites across all genotyped sites.
+
+`calculate_idnv-obs_het.py` example usage:
+```
+calculate_idnv-obs_het.py --vcf /path/to/vcf-all/populations.all.vcf --outdir /path/to/output/directory
+```
 
 ## filter_sumstats_to_whitelist.py
-A custom  python script that allows the user to filter snps for generating a whitelist of snps to use in the `stacks` software.
+A custom  python script that allows the user to filter snps for generating a whitelist of snps to use in the *Stacks* [(Rochette et al. 2019)](https://catchenlab.life.illinois.edu/stacks/) software.
 
 ## format_structurefile_for_gghybrid.sh
-A Bash script that formats a standard structure file to the desired input for the R package gghybrid.
+A Bash script that formats a standard structure file to the desired input for the R package gghybrid [(Bailey 2024)](https://doi.org/10.1111/1755-0998.13910).
 
 ## gghybrid.HI_230526.R
-An R script that runs the R package `gghybrid`.
+An R script that runs the R package [gghybrid](https://github.com/ribailey/gghybrid?tab=readme-ov-file).
 
 ## popmap_telomere_samples_ONLY.tsv
-An example of a popmap used in `stacks`.
+An example of a popmap used in *Stacks*.
 
 ## run_populations.sh
-A Bash script for running the `stacks` module `populations` on a computing cluster
+A Bash script for running the *Stacks* module `populations` on a computing cluster using SLURM.
 
 ## run_vcftools_het.sh
-A Bash scriipt for running `vcftools` to calculate heterozygosity on a computeing cluster
+A Bash script for running `vcftools` to calculate heterozygosity on a computeing cluster using SLURM.
 
 ## Data availability
 Raw RAD-seq reads can be found on NCBI under BioProject [PRJNA893627](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA893627).
