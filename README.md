@@ -38,4 +38,4 @@ A Bash script for running `vcftools` to calculate heterozygosity on a computing 
 
 ## Data availability
 Raw RAD-seq reads can be found on NCBI under BioProject [PRJNA893627](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA893627).
-All other data used in this publication are on [dryad](https://doi.org/10.5061/dryad.qnk98sfnh).
+All other data used in this publication are on [dryad](https://datadryad.org/stash/dataset/doi:10.5061/dryad.qnk98sfnh).
