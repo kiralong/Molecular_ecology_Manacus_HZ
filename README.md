@@ -1,6 +1,6 @@
 # Molecular Ecology of a _Manacus_ hybrid zone Manuscript Repository
 
->Ben J. Vernasco*, Kira M. Long*, Michael J. Braun, Jeffrey D. Brawn. (2024) **Genetic and telomeric variability: Insights from a tropical avian hybrid zone**. In Press. _Molecular Ecology_. (*Co-first Authors)
+>Ben J. Vernasco*, Kira M. Long*, Michael J. Braun, Jeffrey D. Brawn. (2024) **Genetic and telomeric variability: Insights from a tropical avian hybrid zone**. _Molecular Ecology_. [DOI: 10.1111/mec.17491](https://doi.org/10.1111/mec.17491) (*Co-first Authors)
 
 Code repository describing bioinformatics for the assesment of associations between telomere variation, hybridization and genetic variation in _Manacus_ birds.
 
